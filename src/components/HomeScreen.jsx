@@ -128,6 +128,17 @@ const HomeScreen = () => {
         },
     ]);
 
+    /*useEffect(() => {
+        axios.get('https://jsonplaceholder.typicode.com/posts?_limit=20')
+          .then(response => {
+            setFarms(response.data);
+          })
+          .catch(error => {
+            console.error('Error fetching farms:', error);
+          });
+    }, []);*/
+    
+
     return(
         <>
             <Navbar />
